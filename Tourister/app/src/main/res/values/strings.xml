@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tourister</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="goepolitical_zone">
+        <item>Please select one</item>
+        <item>South West</item>
+        <item>South East</item>
+        <item>South South</item>
+        <item>North Central</item>
+        <item>North West</item>
+        <item>North East</item>
+
+    </string-array>
+</resources>

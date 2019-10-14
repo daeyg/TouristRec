@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please completed the form below"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="18sp"
+            android:text="What is your current location?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="State" />
+
+        <Spinner
+            android:id="@+id/states_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_resource"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="City" />
+
+        <Spinner
+            android:id="@+id/city_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_resource" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="How much is your estimated budget for the tourism trip?" />
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:inputType="number"
+            android:id="@+id/budget_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="12dp"
+            android:hint="Enter your budget in Naira"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:text="Which Geopolitical zone would you prefer?" />
+
+        <Spinner
+            android:id="@+id/goepolitical_zone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_resource"
+            android:entries="@array/goepolitical_zone"
+            />
+
+        <Button
+
+            android:layout_marginBottom="40dp"
+            android:id="@+id/continue_button"
+            android:layout_marginTop="32dp"
+            android:textColor="@android:color/white"
+            android:text= "Continue"
+            android:background="@drawable/home_page_continue_button_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
